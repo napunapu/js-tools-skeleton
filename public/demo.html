@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Protractor demo</title>
+    <link rel="stylesheet" href="build/css/ownstyles.css">
+  </head>
+  <body>
+    <h2>Data handling happens below</h2>
+    <button id="btn">Clicky</button>
+    <h3 id="insertion"></h3>
+    
+    <script src="build/js/fetchContent.js"></script>
+    <script type="text/javascript">
+      document.getElementById('btn').onclick = fetchContent;
+    </script>
+  </body>  
+</html>
