@@ -10,9 +10,8 @@ module.exports = function(shipit) {
       repositoryUrl: 'git@github.com:napunapu/js-tools-skeleton.git',
       branch: 'master',
       ignores: ['.git', 'node_modules'],
-      keepReleases: 2,
-      deleteOnRollback: false,
-      shallowClone: true
+      keepReleases: 1,
+      deleteOnRollback: false
     },
     master: {
       servers: ['user@company.com:12345'],
