@@ -8,7 +8,7 @@ npm install
 gulp
 ```
 
-Notice that the latter command remains "watching". In this case it can be stopped with Ctrl-c.
+Notice that the latter command remains "watching". In this case it can be stopped with <kbd>Ctrl</kbd>-<kbd>c</kbd>.
 
 Gulp did the following:
 * Created ```public/build``` folder and subfolders
