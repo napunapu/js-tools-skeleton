@@ -19,11 +19,6 @@ module.exports = function(shipit) {
       branch: 'master',
       deployTo: '/home/root/www',
       runConfig: ''
-    },
-
-    // local
-    local: {
-      servers: []
     }
   });
 
